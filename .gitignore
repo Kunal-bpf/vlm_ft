@@ -1,0 +1,8 @@
+/lora_model
+/merged_ft_llama
+/unsloth_compiled_cache
+/finetuned_model_checkpoint
+*.png
+*.html
+*.csv
+*.jsonl
