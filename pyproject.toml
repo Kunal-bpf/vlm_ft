@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "vlm-finetuning"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.5.1"
+torchvision = "^0.20.1"
+torchaudio = "^2.5.1"
+transformers = "^4.47.0"
+vllm = "^0.6.4.post1"
+scikit-learn = "^1.6.0"
+pandas = "^2.2.3"
+plotly = "^5.24.1"
+matplotlib = "^3.9.4"
+bitsandbytes = "^0.45.0"
+unsloth = "^2024.12.4"
+nbformat = "^5.10.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
