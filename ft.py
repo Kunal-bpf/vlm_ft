@@ -143,7 +143,6 @@ with open("train_data.jsonl", "r") as file:
 with open("val_data.jsonl", "r") as file:
     val_data = [json.loads(line) for line in file]
 
-
 def format_to_json(filename):
     return f"""```json
 {{
